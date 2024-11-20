@@ -175,7 +175,7 @@ def post_to_discord(post: Post, code: str) -> None:
         return
 
     console.log('Sending message...')
-    webhook = DiscordWebhook(url=os.getenv('DISCORD_WEBHOOK_URL'), content='<mention>')
+    webhook = DiscordWebhook(url=os.getenv('DISCORD_WEBHOOK_URL'), content='<@&1308897892240723979>')
 
     embed = DiscordEmbed(title=f"New promocode `{code}`", description=f"Click [here]({post.url}) to see the post", color="6dc176")
     embed.set_author(name=post.author, 
