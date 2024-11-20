@@ -1,0 +1,11 @@
+opencv-python
+numpy
+requests
+pytesseract
+Pillow
+rich
+dotenv
+instaloader
+facebook-scraper
+lxml_html_clean
+discord_webhook
